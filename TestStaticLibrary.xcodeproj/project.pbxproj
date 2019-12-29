@@ -16,8 +16,15 @@
 		DB69054E2394F867001EE8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB69054C2394F867001EE8DE /* LaunchScreen.storyboard */; };
 		DB6905592394F867001EE8DE /* TestStaticLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6905582394F867001EE8DE /* TestStaticLibraryTests.swift */; };
 		DB6905642394F867001EE8DE /* TestStaticLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6905632394F867001EE8DE /* TestStaticLibraryUITests.swift */; };
-		DB69059F23950C2F001EE8DE /* libDemoStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB69059923950C2F001EE8DE /* libDemoStaticLib.a */; };
-		DB6905AE239513A4001EE8DE /* libACryptor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6905A9239513A4001EE8DE /* libACryptor.a */; };
+		DB6905C223954555001EE8DE /* arm64-apple-ios.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DB6905B923954555001EE8DE /* arm64-apple-ios.swiftdoc */; };
+		DB6905C323954555001EE8DE /* x86_64-apple-ios-simulator.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DB6905BA23954555001EE8DE /* x86_64-apple-ios-simulator.swiftdoc */; };
+		DB6905C423954555001EE8DE /* x86_64-apple-ios-simulator.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DB6905BB23954555001EE8DE /* x86_64-apple-ios-simulator.swiftmodule */; };
+		DB6905C523954555001EE8DE /* x86_64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DB6905BC23954555001EE8DE /* x86_64.swiftdoc */; };
+		DB6905C623954555001EE8DE /* arm64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DB6905BD23954555001EE8DE /* arm64.swiftmodule */; };
+		DB6905C723954555001EE8DE /* x86_64.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DB6905BE23954555001EE8DE /* x86_64.swiftmodule */; };
+		DB6905C823954555001EE8DE /* arm64-apple-ios.swiftmodule in Resources */ = {isa = PBXBuildFile; fileRef = DB6905BF23954555001EE8DE /* arm64-apple-ios.swiftmodule */; };
+		DB6905C923954555001EE8DE /* arm64.swiftdoc in Resources */ = {isa = PBXBuildFile; fileRef = DB6905C023954555001EE8DE /* arm64.swiftdoc */; };
+		DB6905CA23954555001EE8DE /* libDemoStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6905C123954555001EE8DE /* libDemoStaticLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +60,15 @@
 		DB69055F2394F867001EE8DE /* TestStaticLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStaticLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6905632394F867001EE8DE /* TestStaticLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStaticLibraryUITests.swift; sourceTree = "<group>"; };
 		DB6905652394F868001EE8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB69059923950C2F001EE8DE /* libDemoStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDemoStaticLib.a; sourceTree = "<group>"; };
-		DB6905A9239513A4001EE8DE /* libACryptor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACryptor.a; sourceTree = "<group>"; };
+		DB6905B923954555001EE8DE /* arm64-apple-ios.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftdoc"; sourceTree = "<group>"; };
+		DB6905BA23954555001EE8DE /* x86_64-apple-ios-simulator.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftdoc"; sourceTree = "<group>"; };
+		DB6905BB23954555001EE8DE /* x86_64-apple-ios-simulator.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "x86_64-apple-ios-simulator.swiftmodule"; sourceTree = "<group>"; };
+		DB6905BC23954555001EE8DE /* x86_64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftdoc; sourceTree = "<group>"; };
+		DB6905BD23954555001EE8DE /* arm64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftmodule; sourceTree = "<group>"; };
+		DB6905BE23954555001EE8DE /* x86_64.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = x86_64.swiftmodule; sourceTree = "<group>"; };
+		DB6905BF23954555001EE8DE /* arm64-apple-ios.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arm64-apple-ios.swiftmodule"; sourceTree = "<group>"; };
+		DB6905C023954555001EE8DE /* arm64.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm64.swiftdoc; sourceTree = "<group>"; };
+		DB6905C123954555001EE8DE /* libDemoStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDemoStaticLib.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB69059F23950C2F001EE8DE /* libDemoStaticLib.a in Frameworks */,
-				DB6905AE239513A4001EE8DE /* libACryptor.a in Frameworks */,
+				DB6905CA23954555001EE8DE /* libDemoStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +154,25 @@
 		DB6905712394F987001EE8DE /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				DB6905A9239513A4001EE8DE /* libACryptor.a */,
-				DB69059923950C2F001EE8DE /* libDemoStaticLib.a */,
+				DB6905B823954555001EE8DE /* DemoStaticLib.swiftmodule */,
+				DB6905C123954555001EE8DE /* libDemoStaticLib.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		DB6905B823954555001EE8DE /* DemoStaticLib.swiftmodule */ = {
+			isa = PBXGroup;
+			children = (
+				DB6905B923954555001EE8DE /* arm64-apple-ios.swiftdoc */,
+				DB6905BA23954555001EE8DE /* x86_64-apple-ios-simulator.swiftdoc */,
+				DB6905BB23954555001EE8DE /* x86_64-apple-ios-simulator.swiftmodule */,
+				DB6905BC23954555001EE8DE /* x86_64.swiftdoc */,
+				DB6905BD23954555001EE8DE /* arm64.swiftmodule */,
+				DB6905BE23954555001EE8DE /* x86_64.swiftmodule */,
+				DB6905BF23954555001EE8DE /* arm64-apple-ios.swiftmodule */,
+				DB6905C023954555001EE8DE /* arm64.swiftdoc */,
+			);
+			path = DemoStaticLib.swiftmodule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +280,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB69054E2394F867001EE8DE /* LaunchScreen.storyboard in Resources */,
+				DB6905C823954555001EE8DE /* arm64-apple-ios.swiftmodule in Resources */,
+				DB6905C923954555001EE8DE /* arm64.swiftdoc in Resources */,
+				DB6905C523954555001EE8DE /* x86_64.swiftdoc in Resources */,
+				DB6905C323954555001EE8DE /* x86_64-apple-ios-simulator.swiftdoc in Resources */,
+				DB6905C423954555001EE8DE /* x86_64-apple-ios-simulator.swiftmodule in Resources */,
+				DB6905C623954555001EE8DE /* arm64.swiftmodule in Resources */,
 				DB69054B2394F867001EE8DE /* Assets.xcassets in Resources */,
+				DB6905C223954555001EE8DE /* arm64-apple-ios.swiftdoc in Resources */,
 				DB6905462394F865001EE8DE /* Main.storyboard in Resources */,
+				DB6905C723954555001EE8DE /* x86_64.swiftmodule in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
